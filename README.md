@@ -8,44 +8,29 @@ Users must log in successfully before they can send messages. After login, users
 1.Send messages  
 2.Show recent messages, which is not been added yet. 
 3.Quit
-Send Messages:  
+#### Send Messages:  
 You choose how many messages to send.  
 For each message, you enter the recipient’s number and message text.  
 The system checks the recipient number and message length.  
 It generates a message ID and hash.  
 You choose to send, ignore, or store the message.
-Messages Storage: Messages can be stored in a JSON file for later use.
-Automatic Tests:  
+#### Messages Storage:
+Messages can be stored in a JSON file for later use.
+#### Tests:  
 The project includes unit tests to verify the message functions work correctly.
 
+### How It Works
+#### Message.java:
+Handles message data, validation, hash creation, and saving to JSON.
+#### Main.java:
+Controls the program, login, menu, and message sending.
+#### MessageTest.java:
+Contains tests for message functions.
 
+### How to Use It
+Run the program and log in or register a new user.
+After logging in, select option 1 to send messages.
+Enter the number of messages you want to send.
+For each message, enter the recipient’s number and the message text.
+Choose if the user wants to send, store, or ignore each message.
 
-How It Works
-
-Message.java:Handles message data, validation, hash creation, and saving to JSON.
-
-Main.java:Controls the program flow, login, menu, and message sending.
-
-MessageTest.java:Contains tests for message functions.
-
-pom.xml:Includes the JSON library for storing messages.
-
-
-How to Use
-
-Run the program, login, or register a new user.
-After login, choose option 1 to send messages.
-Enter how many messages you want to send.
-For each message, input recipient number and message text.
-Pick what to do with each message (send, store, disregard).
-Check the messages.json file for stored messages.
-
-Testing
-
-Run the JUnit tests in MessageTest.java to verify your code.
-
-Future Improvements
-
-Show recent messages.
-Add message encryption.
-Improve user interface.
