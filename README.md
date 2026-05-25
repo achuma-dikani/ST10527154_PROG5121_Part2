@@ -8,6 +8,7 @@ Users must log in successfully before they can send messages. After login, users
 1.Send messages  
 2.Show recent messages, which is not been added yet. 
 3.Quit
+
 #### Send Messages:  
 You choose how many messages to send.  
 For each message, you enter the recipient’s number and message text.  
