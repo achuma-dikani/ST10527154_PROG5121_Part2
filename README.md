@@ -1,6 +1,6 @@
 # ST10527154_PROG5121_Part2
 ## Part 2 Repository
-### What ir is about
+### What it is about
 This adds messaging to the login system. After logging in, users can send multiple messages. Each message gets its own unique ID and hash. Messages can be saved in a JSON file or ignored.
 
 ### What It Does
@@ -23,8 +23,10 @@ The project includes unit tests to verify the message functions work correctly.
 ### How It Works
 #### Message.java:
 Handles message data, validation, hash creation, and saving to JSON.
+
 #### Main.java:
 Controls the program, login, menu, and message sending.
+
 #### MessageTest.java:
 Contains tests for message functions.
 
